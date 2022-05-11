@@ -1,0 +1,22 @@
+{
+    "name": "merging_32the_32future",
+    "displayName": "Merging the future",
+    "version": "0.0.2",
+    "description": "Merging the future",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "ecosystem:cordova"
+    ],
+    "author": "Retro Team",
+    "devDependencies": {
+        "cordova-plugin-ionic-webview": "5.0.0"
+    },
+    "cordova": {
+        "plugins": {
+            "cordova-plugin-ionic-webview": {}
+        }
+    }
+}
