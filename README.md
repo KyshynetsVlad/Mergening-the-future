@@ -2,11 +2,11 @@
 
 <img align="left" width="0" height="192px" hspace="10"/>
 
-> MERGENING THE FUTURE
+> Mergening the future
 > 
 > «Розробка 2D гри в жанрі ARPG» 
 > 
-> на тему «Мобільний додаток»
+> 
 
 ![Under Development](https://img.shields.io/badge/under-development-orange.svg)
 
