@@ -57,7 +57,7 @@
 
 ## Результат
 
-Зауважень стосовно продукту у замовника не було. Всі поставлені вимоги були виконані та задовольняють всім критеріям, замовнику сподобався додаток, його можливості та функціональність системи. По домовленості було обговорено про подальшу розробку та оновлення додатку, супровід, кінцевий реліз і впровадження системи.
+В активному тестуванні перші прототипи альфа-версій гри на комп'ютерах та мобільних пристроях. Проект знаходиться в активній розробці та вдосконалені вже розроблених функцій та механік. В майбутньому планується подальший реліз та супровід гри.
 
 ## Вихідні коди
 
@@ -74,35 +74,38 @@
   },
   "properties": {
     "adaptGameResolutionAtRuntime": true,
-    "folderProject": false,
-    "orientation": "portrait",
-    "packageName": "com.poltavainf",
-    "pixelsRounding": false,
-    "projectUuid": "ebca1216-beb3-4a30-b84f-7ddd4ced2da4",
-    "scaleMode": "linear",
-    "sizeOnStartupMode": "adaptHeight",
+    "folderProject": true,
+    "orientation": "landscape",
+    "packageName": "com.MtFuture",
+    "pixelsRounding": true,
+    "projectUuid": "16abee44-f9d2-4553-ba82-ce520f150cd7",
+    "scaleMode": "nearest",
+    "sizeOnStartupMode": "adaptWidth",
     "useExternalSourceFiles": false,
-    "version": "1.0.0",
-    "name": "Проект",
-    "author": "Kyshynets Vlad & Rak Denis",
-    "windowWidth": 720,
-    "windowHeight": 1280,
-    "latestCompilationDirectory": "",
+    "version": "0.1.1",
+    "name": "Merging the future",
+    "description": "",
+    "author": "Retro Team",
+    "windowWidth": 2160,
+    "windowHeight": 1080,
+    "latestCompilationDirectory": "C:\\Users\\1\\Documents\\GDevelop projects\\My project13",
     "maxFPS": 60,
-    "minFPS": 20,
+    "minFPS": 30,
     "verticalSync": false,
+    "platformSpecificAssets": {
     
+
 
 Завантаження програми та налаштування екрану
 
 "loadingScreen": {
       "backgroundColor": 0,
-      "backgroundFadeInDuration": 0.2,
-      "backgroundImageResourceName": "",
+      "backgroundFadeInDuration": 0,
+      "backgroundImageResourceName": "Preview.png",
       "gdevelopLogoStyle": "light",
-      "logoAndProgressFadeInDuration": 0.2,
-      "logoAndProgressLogoFadeInDelay": 0.2,
-      "minDuration": 1.5,
+      "logoAndProgressFadeInDuration": 0,
+      "logoAndProgressLogoFadeInDelay": 0,
+      "minDuration": 3,
       "progressBarColor": 16777215,
       "progressBarHeight": 20,
       "progressBarMaxWidth": 200,
@@ -110,7 +113,29 @@
       "progressBarWidthPercent": 30,
       "showGDevelopSplash": true,
       "showProgressBar": true
-    }, 
+    },
+    "authorIds": [],
+    "categories": [],
+    "playableDevices": [],
+    "extensionProperties": [],
+    "platforms": [
+      {
+        "name": "GDevelop JS platform"
+      }
+    ],
+    "currentPlatform": "GDevelop JS platform"
+  },
+  "resources": {
+    "resources": [
+      {
+        "alwaysLoaded": false,
+        "file": "3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
 
 
 
@@ -122,33 +147,86 @@
   "layouts": [
     {
       "b": 209,
-      "disableInputWhenNotFocused": true,
-      "mangledName": "_1052_1077_1085_1102",
-      "name": "Меню",
-      "oglFOV": 90,
-      "oglZFar": 500,
-      "oglZNear": 1,
-      "r": 209,
-      "standardSortMethod": true,
-      "stopSoundsOnStartup": true,
-      "title": "",
-      "v": 209,
-      "uiSettings": {
-        "grid": false,
-        "gridType": "rectangular",
-        "gridWidth": 32,
-        "gridHeight": 32,
-        "gridOffsetX": 0,
-        "gridOffsetY": 0,
-        "gridColor": 10401023,
-        "gridAlpha": 0.8,
-        "snap": false,
-        "zoomFactor": 0.36999999999999994,
-        "windowMask": false
-      }, 
+      "disableInputWhenNotFoc{
+  "b": 209,
+  "disableInputWhenNotFocused": true,
+  "mangledName": "MainMenu",
+  "name": "MainMenu",
+  "oglFOV": 90,
+  "oglZFar": 500,
+  "oglZNear": 1,
+  "r": 209,
+  "standardSortMethod": true,
+  "stopSoundsOnStartup": true,
+  "title": "",
+  "v": 209,
+  "uiSettings": {
+    "grid": false,
+    "gridType": "rectangular",
+    "gridWidth": 32,
+    "gridHeight": 32,
+    "gridOffsetX": 0,
+    "gridOffsetY": 0,
+    "gridColor": 14484255,
+    "gridAlpha": 0.2,
+    "snap": false,
+    "zoomFactor": 0.3999999999999992,
+    "windowMask": false
+  },
+  "objectsGroups": [],
+  "variables": [],
+  "instances": [
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "Start",
+      "persistentUuid": "38b6d8fa-69a9-4cbd-b625-5542328d3650",
+      "width": 0,
+      "x": 735,
+      "y": 410,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "HUD",
+      "locked": false,
+      "name": "Setting",
+      "persistentUuid": "06ce5d1d-7845-4e69-9977-77ffc3510b99",
+      "width": 0,
+      "x": 808,
+      "y": 540,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "Credits",
+      "persistentUuid": "f28e1621-fd96-4f64-91a0-b698e3bfe967",
+      "width": 0,
+      "x": 808,
+      "y": 675,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
 ```
 
 ## Завантажити додаток  
 
-[<img src="https://github.com/KyshynetsVlad/Poltava/blob/main/Practic_Interface/download-1915749__480.png" width="64px" height="64px"/>](https://drive.google.com/file/d/1SD6d-Ml3ZV9MV_HDaUsjxuhuMEfsy_4k/view?usp=sharing)  
+[<img src="https://github.com/KyshynetsVlad/Poltava/blob/main/Practic_Interface/download-1915749__480.png" width="64px" height="64px"/>](https://drive.google.com/file/d/1BTcEDI57w2S14CUZKbJemXUSoy4whjQO/view?usp=sharing)  
 <p align="center"><img src="http://qrcoder.ru/code/?https%3A%2F%2Fdrive.google.com%2Ffile%2Fd%2F1SD6d-Ml3ZV9MV_HDaUsjxuhuMEfsy_4k%2Fview%3Fusp%3Dsharing&4&0"/></p>
