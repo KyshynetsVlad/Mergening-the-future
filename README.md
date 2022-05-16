@@ -2,7 +2,7 @@
 
 <img align="left" width="0" height="192px" hspace="10"/>
 
-> Mergening the future
+> [![Typing SVG](Mergening+the+future)](https://git.io/typing-svg)
 > 
 > «Розробка 2D гри в жанрі ARPG» 
 > 
