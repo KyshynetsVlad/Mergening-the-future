@@ -227,7 +227,7 @@
 
 ## Завантажити додаток  
 
-<p align="center">Версія для ПК ↓ </p>
+<p align="left">Версія для ПК ↓ </p>
 
 [<img src="https://github.com/KyshynetsVlad/Poltava/blob/main/Practic_Interface/download-1915749__480.png" width="64px" height="64px"/>](https://drive.google.com/file/d/1BTcEDI57w2S14CUZKbJemXUSoy4whjQO/view?usp=sharing)
 <p align="center"><img src="http://qrcoder.ru/code/?https%3A%2F%2Fdrive.google.com%2Ffile%2Fd%2F1ebO_ga0XP0hcY_Kn2MtscxgPi0UtPOzk%2Fview%3Fusp%3Dsharing&4&0"/></p>
