@@ -8,7 +8,6 @@
 > 
 
 ![Under Development](https://img.shields.io/badge/under-development-orange.svg)
-
 Головне завдання «Mergining the Furure» розробити проектні рішення для того, щоб задовольнити користувача ігровим процесом. Тримати гравця в інтризі та дати йому справжній тест навичок та вмінь.
 
 
