@@ -2,10 +2,9 @@
 
 <img align="left" width="0" height="192px" hspace="10"/>
 
-> ![Typing SVG](https://readme-typing-svg.herokuapp.com?size=10&color=F7B100&lines=Mergening+the+future)
+> ![Typing SVG](https://readme-typing-svg.herokuapp.com?size=30&color=F7B100&lines=Mergening+the+future)
 > 
 > «Розробка 2D гри в жанрі ARPG» 
-> 
 > 
 
 ![Under Development](https://img.shields.io/badge/under-development-orange.svg)
