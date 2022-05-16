@@ -8,7 +8,7 @@
 > 
 
 ![Under Development](https://img.shields.io/badge/under-development-orange.svg)
-><br>Головне завдання «Mergining the Furure» розробити проектні рішення для того, щоб задовольнити користувача ігровим процесом. Тримати гравця в інтризі та дати йому справжній тест навичок та вмінь.
+<br>Головне завдання «Mergining the Furure» розробити проектні рішення для того, щоб задовольнити користувача ігровим процесом. Тримати гравця в інтризі та дати йому справжній тест навичок та вмінь.
 
 ![Typing SVG](https://github.com/KyshynetsVlad/Mergening-the-future/blob/main/Game/github-user-contribution.svg)
 
