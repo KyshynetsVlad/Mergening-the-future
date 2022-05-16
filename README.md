@@ -2,7 +2,7 @@
 
 <img align="left" width="0" height="192px" hspace="10"/>
 
-> ![Typing SVG](https://readme-typing-svg.herokuapp.com?size=20&color=F7B100&lines=Mergening+the+future)
+> ![Typing SVG](https://readme-typing-svg.herokuapp.com?size=10&color=F7B100&lines=Mergening+the+future)
 > 
 > «Розробка 2D гри в жанрі ARPG» 
 > 
@@ -10,7 +10,7 @@
 
 ![Under Development](https://img.shields.io/badge/under-development-orange.svg)
 
->Головне завдання «Mergining the Furure» розробити проектні рішення для того, щоб задовольнити користувача ігровим процесом. Тримати гравця в >інтризі та дати йому справжній тест навичок та вмінь.
+Головне завдання «Mergining the Furure» розробити проектні рішення для того, щоб задовольнити користувача ігровим процесом. Тримати гравця в інтризі та дати йому справжній тест навичок та вмінь.
 
 
 ## Рушій
