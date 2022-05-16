@@ -2,7 +2,7 @@
 
 <img align="left" width="0" height="192px" hspace="10"/>
 
-> !(https://readme-typing-svg.herokuapp.com?color=%2336BCF7&lines=Mergening+the+future)
+> ![Typing SVG](https://readme-typing-svg.herokuapp.com?size=30&color=F7305B&lines=Mergening+the+future)
 > 
 > «Розробка 2D гри в жанрі ARPG» 
 > 
