@@ -235,7 +235,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Screen",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -265,7 +264,20 @@
                   "parameters": [
                     "",
                     "no",
-                    ""
+                    "no"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SetWindowSize"
+                  },
+                  "parameters": [
+                    "",
+                    "1280",
+                    "720",
+                    "no"
                   ],
                   "subInstructions": []
                 },
@@ -283,11 +295,10 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "SetGameResolutionResizeMode"
+                    "value": "CenterWindow"
                   },
                   "parameters": [
-                    "",
-                    "\"adaptWidth\""
+                    ""
                   ],
                   "subInstructions": []
                 }

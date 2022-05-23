@@ -884,6 +884,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Screen",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -931,11 +932,23 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "SetGameResolutionResizeMode"
+                    "value": "SetWindowSize"
                   },
                   "parameters": [
                     "",
-                    "\"adaptWidth\""
+                    "1280",
+                    "720",
+                    "no"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "CenterWindow"
+                  },
+                  "parameters": [
+                    ""
                   ],
                   "subInstructions": []
                 }
@@ -2868,7 +2881,6 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
-              "folded": true,
               "name": "Sound",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -2882,7 +2894,7 @@
                         "value": "SourisSurObjet"
                       },
                       "parameters": [
-                        "Take4",
+                        "Take3",
                         "",
                         "",
                         ""
@@ -2913,11 +2925,23 @@
                     {
                       "type": {
                         "inverted": false,
+                        "value": "ModVarGlobal"
+                      },
+                      "parameters": [
+                        "Sound",
+                        "=",
+                        "0"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
                         "value": "SetAnimationName"
                       },
                       "parameters": [
                         "Take3",
-                        "\"2\""
+                        "\"1\""
                       ],
                       "subInstructions": []
                     },
@@ -2928,19 +2952,7 @@
                       },
                       "parameters": [
                         "Take4",
-                        "\"1\""
-                      ],
-                      "subInstructions": []
-                    },
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "ModVarGlobal"
-                      },
-                      "parameters": [
-                        "Sound",
-                        "=",
-                        "1"
+                        "\"2\""
                       ],
                       "subInstructions": []
                     }
@@ -2956,7 +2968,7 @@
                         "value": "SourisSurObjet"
                       },
                       "parameters": [
-                        "Take3",
+                        "Take4",
                         "",
                         "",
                         ""
@@ -2987,11 +2999,12 @@
                     {
                       "type": {
                         "inverted": false,
-                        "value": "SetAnimationName"
+                        "value": "ModVarGlobal"
                       },
                       "parameters": [
-                        "Take3",
-                        "\"1\""
+                        "Sound",
+                        "=",
+                        "1"
                       ],
                       "subInstructions": []
                     },
@@ -3002,19 +3015,18 @@
                       },
                       "parameters": [
                         "Take4",
-                        "\"2\""
+                        "\"1\""
                       ],
                       "subInstructions": []
                     },
                     {
                       "type": {
                         "inverted": false,
-                        "value": "ModVarGlobal"
+                        "value": "SetAnimationName"
                       },
                       "parameters": [
-                        "Sound",
-                        "=",
-                        "0"
+                        "Take3",
+                        "\"2\""
                       ],
                       "subInstructions": []
                     }

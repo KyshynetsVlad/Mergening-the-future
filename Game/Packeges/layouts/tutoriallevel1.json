@@ -11114,6 +11114,17 @@
                 ""
               ],
               "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "TouchSimulateMouse"
+              },
+              "parameters": [
+                "",
+                ""
+              ],
+              "subInstructions": []
             }
           ],
           "events": []
@@ -11206,19 +11217,6 @@
                 "MainHero",
                 "=",
                 "Variable(PlayerX)"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "LireFichierExp"
-              },
-              "parameters": [
-                "\"BoxData\"",
-                "\"Boxes\"",
-                "",
-                "BData"
               ],
               "subInstructions": []
             },
@@ -11569,37 +11567,6 @@
                     "value": "VarScene"
                   },
                   "parameters": [
-                    "BData",
-                    "=",
-                    "1"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "Delete"
-                  },
-                  "parameters": [
-                    "Box",
-                    ""
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "VarScene"
-                  },
-                  "parameters": [
                     "HP1V",
                     "=",
                     "1"
@@ -11645,6 +11612,17 @@
                     "Variable(HpBX)",
                     "Variable(HpBY)",
                     "\"HUD\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "Box",
+                    ""
                   ],
                   "subInstructions": []
                 }
@@ -11717,7 +11695,7 @@
                       "parameters": [
                         "",
                         "no",
-                        ""
+                        "yes"
                       ],
                       "subInstructions": []
                     },
@@ -11735,11 +11713,23 @@
                     {
                       "type": {
                         "inverted": false,
-                        "value": "SetGameResolutionResizeMode"
+                        "value": "CenterWindow"
+                      },
+                      "parameters": [
+                        ""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "SetWindowSize"
                       },
                       "parameters": [
                         "",
-                        "\"adaptWidth\""
+                        "1280",
+                        "720",
+                        "no"
                       ],
                       "subInstructions": []
                     }
@@ -11783,6 +11773,17 @@
                       "parameters": [
                         "",
                         "\"adaptWidth\""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "SetGameResolutionResizeMode"
+                      },
+                      "parameters": [
+                        "",
+                        "\"\""
                       ],
                       "subInstructions": []
                     }
@@ -15002,7 +15003,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "SavingData",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -15161,18 +15161,6 @@
                 "\"Player\"",
                 "\"Health\"",
                 "GlobalVariable(HP)"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "EcrireFichierExp"
-              },
-              "parameters": [
-                "\"BoxData\"",
-                "\"Boxes\"",
-                "GlobalVariable(BoxIt)"
               ],
               "subInstructions": []
             },
@@ -15478,17 +15466,6 @@
               "parameters": [
                 "\"Inventory\"",
                 "\"Boost1Y\""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "DeleteGroupFichier"
-              },
-              "parameters": [
-                "\"BoxData\"",
-                "\"Boxes\""
               ],
               "subInstructions": []
             },
@@ -16230,7 +16207,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Heal",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -16373,18 +16349,6 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "ModVarGlobal"
-                  },
-                  "parameters": [
-                    "BoxIt",
-                    "=",
-                    "1"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
                     "value": "Create"
                   },
                   "parameters": [
@@ -16508,18 +16472,6 @@
                     "",
                     "GlobalVolume()",
                     ""
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ModVarGlobal"
-                  },
-                  "parameters": [
-                    "BoxIt",
-                    "=",
-                    "1"
                   ],
                   "subInstructions": []
                 },
@@ -21482,6 +21434,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Setting",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -24642,6 +24595,20 @@
                   },
                   "parameters": [
                     "",
+                    "Resume",
+                    "835+120",
+                    "310",
+                    "\"HUD\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
                     "ExitToMenu",
                     "740+120",
                     "750",
@@ -24701,20 +24668,6 @@
                     "PauseBG",
                     "670+120",
                     "150",
-                    "\"HUD\""
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "Create"
-                  },
-                  "parameters": [
-                    "",
-                    "Resume",
-                    "835+120",
-                    "310",
                     "\"HUD\""
                   ],
                   "subInstructions": []
@@ -25806,6 +25759,18 @@
             {
               "type": {
                 "inverted": false,
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "HelpInfoMove",
+                "=",
+                "\"Click the arrows to move\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
                 "value": "SetSceneVariableAsBoolean"
               },
               "parameters": [
@@ -26032,6 +25997,18 @@
                 "180",
                 "980",
                 "\"HUD\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "HelpInfoFight",
+                "=",
+                "\"Press the attack button to hit\""
               ],
               "subInstructions": []
             },

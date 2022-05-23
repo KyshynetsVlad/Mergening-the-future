@@ -440,12 +440,25 @@
                 {
                   "type": {
                     "inverted": false,
+                    "value": "SetWindowSize"
+                  },
+                  "parameters": [
+                    "",
+                    "1280",
+                    "720",
+                    "no"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
                     "value": "SetFullScreen"
                   },
                   "parameters": [
                     "",
                     "no",
-                    ""
+                    "no"
                   ],
                   "subInstructions": []
                 },
@@ -463,11 +476,10 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "SetGameResolutionResizeMode"
+                    "value": "CenterWindow"
                   },
                   "parameters": [
-                    "",
-                    "\"adaptWidth\""
+                    ""
                   ],
                   "subInstructions": []
                 }
