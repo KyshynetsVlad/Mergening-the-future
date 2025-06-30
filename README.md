@@ -51,7 +51,7 @@
 
 Основні можливості та функції зображено на діаграмі прецедентів, див. рисунок 1.1.
 
-<p align="center"><img src="https://github.com/KyshynetsVlad/Mergening-the-future/blob/main/Game/Precedents.jpg" width="720px" height="520px"/><p/>
+<p align="center"><img src="https://github.com/KyshynetsVlad/Mergening-the-future/blob/main/Game/Use Case Game Project.png" width="720px" height="520px"/><p/>
 <p align="center">Рисунок 1.1. – Діаграма прецедентів</p>
 
 ## Результат
